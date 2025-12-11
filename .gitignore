@@ -1,0 +1,89 @@
+# OSX
+.DS_Store
+
+# Completely ignore these project folders
+ios/
+android/
+.bundle/
+__tests__/
+
+# Xcode / iOS
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+**/.xcode.env.local
+ios/Pods/
+ios/build/
+
+# Android / IntelliJ
+build/
+.idea/
+.gradle/
+local.properties
+*.iml
+*.hprof
+.cxx/
+*.keystore
+!debug.keystore
+.kotlin/
+android/app/build/
+android/.gradle/
+android/.idea/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Metro bundler
+.metro-health-check*
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# VSCode
+.vscode/
+
+# Environment files
+.env
+.env.*.local
+
+# Testing
+coverage/
+
+# Fastlane
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots/
+**/fastlane/test_output/
+
+# Bundle artifacts
+*.jsbundle
+
+# Ruby / CocoaPods
+**/Pods/
+vendor/bundle/
+
+# Yarn (Plug'n'Play)
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
